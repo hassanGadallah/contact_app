@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddContactFragment"
+    android:background="@color/backGround"
+    >
+
+    <EditText
+        android:id="@+id/edt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18sp"
+        android:background="@drawable/rectangle_edite_text"
+        android:hint="Enter User Name"
+        android:padding="16dp"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        />
+
+
+ <!--
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="54544554454554545"
+        android:textColor="@color/offWhite" />
+    -->
+</FrameLayout>
